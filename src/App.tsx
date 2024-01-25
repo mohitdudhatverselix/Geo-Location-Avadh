@@ -1,46 +1,46 @@
-// App.tsx
-
-import React, { useState } from 'react';
 import Select from 'react-select';
 import './App.css';
-import jsonData from './data.json';
+import * as data from './data.json';
 import { WhatsappIcon, WhatsappShareButton } from 'react-share';
+import { useState } from 'react';
 
 interface Option {
   value: string;
   label: string;
 }
 
-interface BungalowData {
+type BungalowData = {
   [key: string]: {
     number: string;
     location: string;
     LongLat: string;
   };
-}
+};
+let jsonData:any  = data ;
 
 function App() {
   const [selectedOption, setSelectedOption] = useState<Option | null>(null);
   const [locationUrl, setLocationUrl] = useState<string | null>(null);
 
   const options: Option[] = Object.keys(jsonData).map((key) => ({
-    value: key,
-    label: jsonData[key].number,
-  }));
+  value: key,
+  label: jsonData[key].number,
+}));
 
-  const handleChange = (selectedOption: Option | null) => {
-    setSelectedOption(selectedOption);
-    if (selectedOption) {
-      setLocationUrl(jsonData[selectedOption.value].location);
-    } else {
-      setLocationUrl(null);
-    }
-  };
+const handleChange = (selectedOption: Option | null) => {
+  setSelectedOption(selectedOption);
+  if (selectedOption) {
+    // Type assertion here
+    setLocationUrl(jsonData[selectedOption.value as keyof BungalowData].location);
+  } else {
+    setLocationUrl(null);
+  }
+};
 
   const handleCopyLocation = () => {
     if (selectedOption) {
-      const rawUrl = locationUrl || jsonData[selectedOption.value].location;
-      
+      const rawUrl = locationUrl || jsonData[selectedOption.value as keyof typeof jsonData].location;
+  
       navigator.clipboard.writeText(rawUrl)
         .then(() => {
           alert(`Banglow Location copied to clipboard!`);
@@ -61,7 +61,6 @@ function App() {
   const customStyles = {
     control: (provided: any) => ({
       ...provided,
-      border: 0,
       boxShadow: 'none',
       display:'flex',
       alignItems: 'center',
@@ -85,8 +84,7 @@ function App() {
       },
     }),
   };
-  const whatsappButtonStyle = {
-    display:'iniline-block',
+  const whatsappButtonStyle : any = {
     backgroundColor: '#1a1a1a',
     color: '#ffffff',
     border: 'none',
@@ -97,9 +95,10 @@ function App() {
     textAlign : 'center',
     margin: 'auto',
   };
-  const WhatsappIconStyle = {
-    display: 'inline-block',  // Ensure the icon is displayed inline
-    marginLeft: '5px',  // Add some space between icon and text
+
+  const WhatsappIconStyle: any = {
+    display: 'inline-block',
+    marginLeft: '5px',
   };
 
   return (
@@ -120,7 +119,7 @@ function App() {
           options={options}
           isSearchable={true}
           placeholder="Select a Bungalow"
-          styles={{...customStyles, outline:'none'}}
+          styles={{...customStyles}}
         />
         {selectedOption && (
           <>
