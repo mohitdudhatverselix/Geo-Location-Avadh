@@ -43,7 +43,7 @@ function App() {
       
       navigator.clipboard.writeText(rawUrl)
         .then(() => {
-          alert(`Raw URL copied to clipboard!`);
+          alert(`Banglow Location copied to clipboard!`);
         })
         .catch((error) => {
           console.error('Unable to copy to clipboard', error);
