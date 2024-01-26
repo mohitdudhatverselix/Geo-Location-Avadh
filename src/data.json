@@ -1,94 +1,95 @@
 {
   "bunglow1": {
     "number": "1",
-    "location": "https://www.google.com/maps/dir//20.420699,72.931783/@20.4207513,72.9311063,261m/data=sss?entry=ttu",
-    "LongLat": "20.420699,72.931783"
+    "location": "https://www.google.com/maps/dir//20.420693,72.931678/@20.4207513,72.9311063,261m/data=sss?entry=ttu",
+    "LongLat": "20.420693,72.931678"
   },
   "bunglow2": {
     "number": "2",
-    "location": "https://www.google.com/maps/dir//20.420801,72.931794/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.420801,72.931794"
+    "location": "https://www.google.com/maps/dir//20.420805,72.931707/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.420805,72.931707"
   },
   "bunglow3": {
     "number": "3",
-    "location": "https://www.google.com/maps/dir//20.42088,72.93179/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.42088,72.93179"
+    "location": "https://www.google.com/maps/dir//20.420893,72.931696/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.420893,72.931696"
   },
   "bunglow4": {
     "number": "4",
-    "location": "https://www.google.com/maps/dir//20.420984,72.931805/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.420984,72.931805"
+    "location": "https://www.google.com/maps/dir//20.420987,72.931714/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.420987,72.931714"
   },
   "bunglow5": {
     "number": "5",
-    "location": "https://www.google.com/maps/dir//20.421074,72.931818/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421074,72.931818"
+    "location": "https://www.google.com/maps/dir//20.421083,72.931718/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421083,72.931718"
   },
   "bunglow6": {
     "number": "6",
-    "location": "https://www.google.com/maps/dir//20.421179,72.931820/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421179,72.931820"
+    "location": "https://www.google.com/maps/dir//20.421178,72.931730/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421178,72.931730"
   },
   "bunglow7": {
     "number": "7",
-    "location": "https://www.google.com/maps/dir//20.421280,72.931834/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421280,72.931834"
+    "location": "https://www.google.com/maps/dir//20.421257,72.931733/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421257,72.931733"
   },
   "bunglow8": {
     "number": "8",
-    "location": "https://www.google.com/maps/dir//20.421362,72.931838/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421362,72.931838"
+    "location": "https://www.google.com/maps/dir//20.421354,72.931748/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421354,72.931748"
   },
   "bunglow9": {
     "number": "9",
-    "location": "https://www.google.com/maps/dir//20.421445,72.931841/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421445,72.931841"
+    "location": "https://www.google.com/maps/dir//20.421439,72.931749/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421439,72.931749"
   },
   "bunglow10": {
     "number": "10",
-    "location": "https://www.google.com/maps/dir//20.421525,72.931849/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421525,72.931849"
+    "location": "https://www.google.com/maps/dir//20.421528,72.931753/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421528,72.931753"
   },
   "bunglow11": {
     "number": "11",
-    "location": "https://www.google.com/maps/dir//20.421636,72.931848/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421636,72.931848"
+    "location": "https://www.google.com/maps/dir//20.421612,72.931755/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421612,72.931755"
   },
   "bunglow12": {
     "number": "12",
-    "location": "https://www.google.com/maps/dir//20.421723,72.931853/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421723,72.931853"
+    "location": "https://www.google.com/maps/dir//20.421712,72.931763/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421712,72.931763"
   },
   "bunglow13": {
     "number": "13",
-    "location": "https://www.google.com/maps/dir//20.421796,72.931867/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421796,72.931867"
+    "location": "https://www.google.com/maps/dir//20.421798,72.931770/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421798,72.931770"
   },
   "bunglow14": {
     "number": "14",
-    "location": "https://www.google.com/maps/dir//20.421890,72.931871/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421890,72.931871"
+    "location": "https://www.google.com/maps/dir//20.421888,72.931775/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421888,72.931775"
   },
   "bunglow15": {
     "number": "15",
-    "location": "https://www.google.com/maps/dir//20.421986,72.931880/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.421986,72.931880"
+    "location": "https://www.google.com/maps/dir//20.421976,72.931783/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.421976,72.931783"
   },
   "bunglow16": {
     "number": "16",
-    "location": "https://www.google.com/maps/dir//20.422075,72.931886/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.422075,72.931886"
+    "location": "https://www.google.com/maps/dir//20.422070,72.931791/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.422070,72.931791"
   },
   "bunglow17": {
     "number": "17",
-    "location": "https://www.google.com/maps/dir//20.422162,72.931895/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.422162,72.931895"
+    "location": "https://www.google.com/maps/dir//20.422158,72.931792/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.422158,72.931792"
   },
   "bunglow18": {
     "number": "18",
-    "location": "https://www.google.com/maps/dir//20.422252,72.931907/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
-    "LongLat": "20.422252,72.931907"
-  },
+    "location": "https://www.google.com/maps/dir//20.422247,72.931801/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
+    "LongLat": "20.422247,72.931801"
+  }
+,
   "bunglow19": {
     "number": "19",
     "location": "https://www.google.com/maps/dir//20.422343,72.931683/@20.4207513,72.9311063,261m/data=!3m1!1e3?entry=ttu",
