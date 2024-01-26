@@ -1,6 +1,7 @@
 import Select from 'react-select';
 import './App.css';
-import * as data from './data.json';
+import data from './data.json';
+
 import { WhatsappIcon, WhatsappShareButton } from 'react-share';
 import { useState } from 'react';
 
@@ -16,8 +17,8 @@ type BungalowData = {
     LongLat: string;
   };
 };
-let jsonData:any  = data ;
 
+let jsonData: BungalowData  = data;
 function App() {
   const [selectedOption, setSelectedOption] = useState<Option | null>(null);
   const [locationUrl, setLocationUrl] = useState<string | null>(null);
@@ -26,6 +27,7 @@ function App() {
   value: key,
   label: jsonData[key].number,
 }));
+
 
 const handleChange = (selectedOption: Option | null) => {
   setSelectedOption(selectedOption);
