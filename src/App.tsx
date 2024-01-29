@@ -28,8 +28,12 @@ function App() {
   const [selectedOption, setSelectedOption] = useState<Option | null>(null);
   const [locationUrl, setLocationUrl] = useState<string | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>("A");
-  const [filterData, setFilterData] = useState<OptionsOrGroups<Option, GroupBase<Option>> | undefined>(undefined);  
+  const [filterData, setFilterData] = useState<
+    OptionsOrGroups<Option, GroupBase<Option>> | undefined
+  >(undefined);
+
   useFilter(jsonData, selectedCategory, setFilterData);
+
   const handleChange = (selectedOption: Option | null) => {
     setSelectedOption(selectedOption);
     if (selectedOption) {
@@ -41,7 +45,6 @@ function App() {
     }
   };
 
-
   const handleGetLocation = () => {
     if (locationUrl) {
       window.location.href = locationUrl;
@@ -49,33 +52,32 @@ function App() {
   };
 
   const handleCopyLocation = () => {
-    const location = jsonData[selectedOption?.value as keyof typeof jsonData]?.location;
+    const location =
+      jsonData[selectedOption?.value as keyof typeof jsonData]?.location;
 
     console.log(location.toString());
-    
+
     if (location) {
       try {
-        navigator.clipboard.writeText(location)
+        navigator.clipboard
+          .writeText(location)
           .then(() => {
             alert(`Banglow Location copied to clipboard!`);
           })
           .catch((error) => {
-            console.error('Unable to copy to clipboard', error);
+            console.error("Unable to copy to clipboard", error);
           });
       } catch (error) {
-        const textarea = document.createElement('textarea');
+        const textarea = document.createElement("textarea");
         textarea.value = location;
         document.body.appendChild(textarea);
         textarea.select();
-        document.execCommand('copy');
+        document.execCommand("copy");
         document.body.removeChild(textarea);
         alert(`Banglow Location copied to clipboard!`);
       }
     }
   };
-  
-
-
 
   const customStyles = {
     control: (provided: any) => ({

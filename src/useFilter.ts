@@ -24,11 +24,13 @@ const useFilter = (
         .map((key) => ({
           value: key,
           label: data[key].number,
-        }));
+        }));        
       setFilterData(filteredOptions);
     }
   }, [data, category, setFilterData]);
 };
+
+
 
 export default useFilter;
 
